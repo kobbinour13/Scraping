@@ -20,8 +20,7 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 browser = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options) 
 file = open('sample.txt')
 lines = file.readlines()
-username = lines[0]
-password = lines[1]
+
 
 """
 elementID = browser.find_element("id",'username')
