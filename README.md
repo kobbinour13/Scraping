@@ -1,32 +1,24 @@
 # ScrapIn
-Scrapes LinkedIn User Data
+Scrapes LinkedIn User Data to extract experiences, years at company and total working years
 
-## INSTALLATION
 
-```
-pip install requests
-pip install selenium
-pip install time
-pip install bs4
-```
 
 ## USAGE
 
 ```
-Change Password & Username from the 'sample.txt' file.
-Run main.py (python3 main.py)
+Enter your linkedin email and password in main.py 
 ```
 
 ## Scraped Informations
 
 • **Link**
 
-• **Name,Profile Title,Location,Count of connections**
+• 
 
-• **Company Name,Job Title,Joining Date,Experiences**
+• **Experiences**
 
 • **College Name,Degree Name,Stream,Degree Year**
 
 ```
-Informations will be on 'output.txt' file.
+Informations will be on 'resultat.csv' file.
 ```
